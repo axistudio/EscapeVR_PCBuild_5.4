@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: b8f40d061ac218a43bcdb99b2d03376b
+timeCreated: 1469644647
+licenseType: Free
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: SEAT_MAIN
+    prototypeName: SEAT_MAIN
+    shaderName: 
+    shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: 
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 2301
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: paint_main_color
+      value:
+        scalar[0]: 0.75686276
+        scalar[1]: 0.7538616
+        scalar[2]: 0.6589158
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: paint_restraint_color
+      value:
+        scalar[0]: 0.89705884
+        scalar[1]: 0.7829704
+        scalar[2]: 0.14511244
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: paint_decal_color
+      value:
+        scalar[0]: 0.7647059
+        scalar[1]: 0.15181662
+        scalar[2]: 0.21521874
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Metal_scratches_color
+      value:
+        scalar[0]: 0.95631486
+        scalar[1]: 0.9722529
+        scalar[2]: 0.9852941
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Metal_base_color
+      value:
+        scalar[0]: 0.8012543
+        scalar[1]: 0.82159317
+        scalar[2]: 0.83823526
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: metal_wear_level
+      value:
+        scalar[0]: 0.623
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Metal_WEAR_GRUNGE
+      value:
+        scalar[0]: 0.312
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_Color
+      value:
+        scalar[0]: 0.13235295
+        scalar[1]: 0.076941885
+        scalar[2]: 0.006812283
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: dirt_level
+      value:
+        scalar[0]: 0.473
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_grunge
+      value:
+        scalar[0]: 0.308
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: GLOW_COLOR_01
+      value:
+        scalar[0]: 0.8161765
+        scalar[1]: 0.60294414
+        scalar[2]: 0.14403114
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: GLOW_COLOR_02
+      value:
+        scalar[0]: 0.14273357
+        scalar[1]: 0.44117647
+        scalar[2]: 0.3300322
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: GLOW_COLOR_03
+      value:
+        scalar[0]: 0.53676474
+        scalar[1]: 0.23484816
+        scalar[2]: 0.071042396
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: leather_color
+      value:
+        scalar[0]: 0.30147058
+        scalar[1]: 0.2787227
+        scalar[2]: 0.09531791
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 1
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _BumpMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _Shininess
+          second: 0.078125
+      colors:
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SpecColor
+          second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    textureParameters:
+    - name: SEAT_MAIN_basecolor
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_diffuse
+      alphaSource: 5
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: SEAT_MAIN_roughness
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_metallic
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_specular
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: SEAT_MAIN_emissive
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_Ambient_Occlusion
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_UNITY5_METAL_SMOOTH
+      alphaSource: 6
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: SEAT_MAIN_ALLOY
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 1044718134
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 1044718136
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

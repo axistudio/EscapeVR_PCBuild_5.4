@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ENGINE_FLAME_MAT
+  m_Shader: {fileID: 4800000, guid: 1e535c4e5b7d9fc429a57b0c24fd937e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 3f5802bf8070604439bda876b7c70e89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_6
+        second:
+          m_Texture: {fileID: 2800000, guid: 3f5802bf8070604439bda876b7c70e89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _EmissiveMult
+        second: 9.44
+      data:
+        first:
+          name: _node_59
+        second: 11
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 0.4649654, g: 0.6458053, b: 0.7352941, a: 1}
+      data:
+        first:
+          name: _MultColor
+        second: {r: 0.17220496, g: 0.25735903, b: 0.23974094, a: 1}
+      data:
+        first:
+          name: _node_11
+        second: {r: 0.504109, g: 0.8668103, b: 0.9264706, a: 1}
+      data:
+        first:
+          name: _node_393
+        second: {r: 0.18003894, g: 0.20351987, b: 0.27205884, a: 1}

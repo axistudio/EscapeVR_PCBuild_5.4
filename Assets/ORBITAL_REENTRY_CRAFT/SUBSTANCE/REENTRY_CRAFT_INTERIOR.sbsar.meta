@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: b3658eaff8d0c69449012d69cc599185
+timeCreated: 1469670575
+licenseType: Free
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: ePOD_INT_MAIN
+    prototypeName: ePOD_INT_MAIN
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _EMISSION _LIGHTMAPPING_REALTIME _METALLICGLOSSMAP _NORMALMAP
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: main_pnt_col
+      value:
+        scalar[0]: 0.7352941
+        scalar[1]: 0.7263484
+        scalar[2]: 0.4433391
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: DECAL_PAINT_COLOR
+      value:
+        scalar[0]: 0.7647059
+        scalar[1]: 0.40383607
+        scalar[2]: 0.208045
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Metal_base_color
+      value:
+        scalar[0]: 1
+        scalar[1]: 0.9965686
+        scalar[2]: 0.99264705
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: metal_top_color
+      value:
+        scalar[0]: 0.8602941
+        scalar[1]: 0.8289805
+        scalar[2]: 0.80336285
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Metal_wear_level
+      value:
+        scalar[0]: 0.487
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: EM_COLOR_01
+      value:
+        scalar[0]: 0.45051903
+        scalar[1]: 0.8074762
+        scalar[2]: 0.8509804
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: EM_COLOR_02
+      value:
+        scalar[0]: 0.780392
+        scalar[1]: 0.0910506
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: EM_COLOR_03
+      value:
+        scalar[0]: 0.20238
+        scalar[1]: 0.737255
+        scalar[2]: 0.6392
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: Metal_wear_grunge
+      value:
+        scalar[0]: 0.77
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Dirt_color
+      value:
+        scalar[0]: 0.203922
+        scalar[1]: 0.138979
+        scalar[2]: 0.0647746
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: dirt_level
+      value:
+        scalar[0]: 0.076
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: dirt_contrast
+      value:
+        scalar[0]: 0.27
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: dirt_grunge
+      value:
+        scalar[0]: 0.68
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: INT_WINDOW_OPACITY
+      value:
+        scalar[0]: 0.824
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: WINDOW_COLOR
+      value:
+        scalar[0]: 0.050010815
+        scalar[1]: 0.107991226
+        scalar[2]: 0.18382353
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 1
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _BumpMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailNormalMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _ParallaxMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _OcclusionMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _EmissionMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailMask
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailAlbedoMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _MetallicGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _SrcBlend
+          second: 1
+        data:
+          first:
+            name: _DstBlend
+          second: 0
+        data:
+          first:
+            name: _Cutoff
+          second: 0.5
+        data:
+          first:
+            name: _Shininess
+          second: 0.3630957
+        data:
+          first:
+            name: _Parallax
+          second: 0.02
+        data:
+          first:
+            name: _ZWrite
+          second: 1
+        data:
+          first:
+            name: _Glossiness
+          second: 0.5
+        data:
+          first:
+            name: _BumpScale
+          second: 1
+        data:
+          first:
+            name: _OcclusionStrength
+          second: 1
+        data:
+          first:
+            name: _DetailNormalMapScale
+          second: 1
+        data:
+          first:
+            name: _UVSec
+          second: 0
+        data:
+          first:
+            name: _Mode
+          second: 0
+        data:
+          first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
+            name: _Lightmapping
+          second: 1
+        data:
+          first:
+            name: _EmissionScaleUI
+          second: 1
+      colors:
+        data:
+          first:
+            name: _EmissionColor
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SpecColor
+          second: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+        data:
+          first:
+            name: _EmissionColorUI
+          second: {r: 1, g: 1, b: 1, a: 1}
+    textureParameters:
+    - name: ePOD_INT_MAIN_basecolor
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_diffuse
+      alphaSource: 5
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_roughness
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_metallic
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_specular
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_Emissive
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_AO
+      alphaSource: 0
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_UNITY5_METAL_SMOOTH
+      alphaSource: 6
+      filterMode: 1
+      aniso: 2
+      wrapMode: 0
+    - name: ePOD_INT_MAIN_ALLOY
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 430815062
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 430815064
+    - shaderProp:
+        name: _OcclusionMap
+      material: {instanceID: 0}
+      baseUID: 370931368
+    - shaderProp:
+        name: _EmissionMap
+      material: {instanceID: 0}
+      baseUID: 377082433
+    - shaderProp:
+        name: _MetallicGlossMap
+      material: {instanceID: 0}
+      baseUID: 430815068
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
