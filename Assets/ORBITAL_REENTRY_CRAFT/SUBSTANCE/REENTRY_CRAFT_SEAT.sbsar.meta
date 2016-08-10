@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b8f40d061ac218a43bcdb99b2d03376b
-timeCreated: 1469644647
+timeCreated: 1470864992
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -30,16 +30,16 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: paint_main_color
       value:
-        scalar[0]: 0.75686276
-        scalar[1]: 0.7538616
-        scalar[2]: 0.6589158
+        scalar[0]: 0.72794116
+        scalar[1]: 0.72794116
+        scalar[2]: 0.72794116
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: paint_restraint_color
       value:
-        scalar[0]: 0.89705884
-        scalar[1]: 0.7829704
-        scalar[2]: 0.14511244
+        scalar[0]: 0.53676474
+        scalar[1]: 0.53676474
+        scalar[2]: 0.53676474
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: paint_decal_color
@@ -100,23 +100,23 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: GLOW_COLOR_01
       value:
-        scalar[0]: 0.8161765
-        scalar[1]: 0.60294414
-        scalar[2]: 0.14403114
+        scalar[0]: 0.7058823
+        scalar[1]: 0.7058823
+        scalar[2]: 0.7058823
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: GLOW_COLOR_02
       value:
-        scalar[0]: 0.14273357
-        scalar[1]: 0.44117647
-        scalar[2]: 0.3300322
+        scalar[0]: 0.5735294
+        scalar[1]: 0.5735294
+        scalar[2]: 0.5735294
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: GLOW_COLOR_03
       value:
-        scalar[0]: 0.53676474
-        scalar[1]: 0.23484816
-        scalar[2]: 0.071042396
+        scalar[0]: 0.5588235
+        scalar[1]: 0.54017717
+        scalar[2]: 0.5300605
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: leather_color
@@ -136,34 +136,29 @@ SubstanceImporter:
     materialProperties:
       serializedVersion: 2
       texEnvs:
-        data:
-          first:
-            name: _MainTex
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _BumpMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
+      - first:
+          name: _BumpMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MainTex
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
       floats:
-        data:
-          first:
-            name: _Shininess
-          second: 0.078125
+      - first:
+          name: _Shininess
+        second: 0.078125
       colors:
-        data:
-          first:
-            name: _Color
-          second: {r: 1, g: 1, b: 1, a: 1}
-        data:
-          first:
-            name: _SpecColor
-          second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      - first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     textureParameters:
     - name: SEAT_MAIN_basecolor
       alphaSource: 0
@@ -231,6 +226,12 @@ SubstanceImporter:
       textureHeight: 2048
       textureFormat: 0
       loadingBehavior: 1
+    - serializedVersion: 2
+      buildTarget: Standalone
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 2
   deletedPrototypes: []
   userData: 
   assetBundleName: 

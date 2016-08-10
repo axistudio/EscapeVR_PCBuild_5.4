@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b3658eaff8d0c69449012d69cc599185
-timeCreated: 1469670575
+timeCreated: 1470864966
 licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
@@ -30,16 +30,16 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: main_pnt_col
       value:
-        scalar[0]: 0.7352941
-        scalar[1]: 0.7263484
-        scalar[2]: 0.4433391
+        scalar[0]: 0.77205884
+        scalar[1]: 0.77205884
+        scalar[2]: 0.77205884
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: DECAL_PAINT_COLOR
       value:
-        scalar[0]: 0.7647059
-        scalar[1]: 0.40383607
-        scalar[2]: 0.208045
+        scalar[0]: 0.66176474
+        scalar[1]: 0.66176474
+        scalar[2]: 0.66176474
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: Metal_base_color
@@ -65,9 +65,9 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: EM_COLOR_01
       value:
-        scalar[0]: 0.45051903
-        scalar[1]: 0.8074762
-        scalar[2]: 0.8509804
+        scalar[0]: 0.123756506
+        scalar[1]: 0.727847
+        scalar[2]: 0.8014706
         scalar[3]: 1
         texture: {instanceID: 0}
     - name: EM_COLOR_02
@@ -143,147 +143,119 @@ SubstanceImporter:
     materialProperties:
       serializedVersion: 2
       texEnvs:
-        data:
-          first:
-            name: _MainTex
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _BumpMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailNormalMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _ParallaxMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _OcclusionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _EmissionMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailMask
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _DetailAlbedoMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
-        data:
-          first:
-            name: _MetallicGlossMap
-          second:
-            texture: {instanceID: 0}
-            scale: {x: 1, y: 1}
-            offset: {x: 0, y: 0}
+      - first:
+          name: _BumpMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailAlbedoMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailMask
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailNormalMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _EmissionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MainTex
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MetallicGlossMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _OcclusionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _ParallaxMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
       floats:
-        data:
-          first:
-            name: _SrcBlend
-          second: 1
-        data:
-          first:
-            name: _DstBlend
-          second: 0
-        data:
-          first:
-            name: _Cutoff
-          second: 0.5
-        data:
-          first:
-            name: _Shininess
-          second: 0.3630957
-        data:
-          first:
-            name: _Parallax
-          second: 0.02
-        data:
-          first:
-            name: _ZWrite
-          second: 1
-        data:
-          first:
-            name: _Glossiness
-          second: 0.5
-        data:
-          first:
-            name: _BumpScale
-          second: 1
-        data:
-          first:
-            name: _OcclusionStrength
-          second: 1
-        data:
-          first:
-            name: _DetailNormalMapScale
-          second: 1
-        data:
-          first:
-            name: _UVSec
-          second: 0
-        data:
-          first:
-            name: _Mode
-          second: 0
-        data:
-          first:
-            name: _Metallic
-          second: 0
-        data:
-          first:
-            name: _Lightmapping
-          second: 1
-        data:
-          first:
-            name: _EmissionScaleUI
-          second: 1
+      - first:
+          name: _BumpScale
+        second: 1
+      - first:
+          name: _Cutoff
+        second: 0.5
+      - first:
+          name: _DetailNormalMapScale
+        second: 1
+      - first:
+          name: _DstBlend
+        second: 0
+      - first:
+          name: _EmissionScaleUI
+        second: 1
+      - first:
+          name: _Glossiness
+        second: 0.5
+      - first:
+          name: _Lightmapping
+        second: 1
+      - first:
+          name: _Metallic
+        second: 0
+      - first:
+          name: _Mode
+        second: 0
+      - first:
+          name: _OcclusionStrength
+        second: 1
+      - first:
+          name: _Parallax
+        second: 0.02
+      - first:
+          name: _Shininess
+        second: 0.3630957
+      - first:
+          name: _SrcBlend
+        second: 1
+      - first:
+          name: _UVSec
+        second: 0
+      - first:
+          name: _ZWrite
+        second: 1
       colors:
-        data:
-          first:
-            name: _EmissionColor
-          second: {r: 1, g: 1, b: 1, a: 1}
-        data:
-          first:
-            name: _Color
-          second: {r: 1, g: 1, b: 1, a: 1}
-        data:
-          first:
-            name: _SpecColor
-          second: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
-        data:
-          first:
-            name: _EmissionColorUI
-          second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _EmissionColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _SpecColor
+        second: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
     textureParameters:
     - name: ePOD_INT_MAIN_basecolor
       alphaSource: 0
@@ -363,6 +335,12 @@ SubstanceImporter:
       textureHeight: 2048
       textureFormat: 0
       loadingBehavior: 1
+    - serializedVersion: 2
+      buildTarget: Standalone
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      loadingBehavior: 2
   deletedPrototypes: []
   userData: 
   assetBundleName: 
