@@ -33,7 +33,7 @@ TROUBLESHOOTING:
 SOURCE TEXTURES:
 ----------------
 
-4k versions of Baked Source textures are included with this asset for those who don't want to use Substance or are using a different shader setup such as Skyshop or Alloy.
+4k versions of Baked Source textures are included with this asset for those who don't want to use 1000 or are using a different shader setup such as Skyshop or Alloy.
 
 path - ORBITAL_REENTRY_CRAFT\TEXTURES\4k_BAKED_TEXTURES
 
