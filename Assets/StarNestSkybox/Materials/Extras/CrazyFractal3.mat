@@ -20,6 +20,9 @@ Material:
         name: _Brightness
       second: 0.53
     - first:
+        name: _CLAMPOUT
+      second: 0
+    - first:
         name: _CamScroll
       second: 55
     - first:

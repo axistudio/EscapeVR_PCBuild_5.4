@@ -92,6 +92,69 @@ NavMeshSettings:
     cellSize: 0.16666666
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &19012704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 19012706}
+  - 108: {fileID: 19012705}
+  m_Layer: 0
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &19012705
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19012704}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 2.46
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &19012706
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19012704}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.104, y: 6.999, z: 1.034}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &21501346
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,7 +200,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0c52cae22ac24bf49babab67eecc404f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5a170ea25bdc7f43abcbf025f2c325e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -147,13 +210,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21501346}
-  m_LocalRotation: {x: -0, y: 0.90581447, z: -0, w: 0.42367467}
-  m_LocalPosition: {x: -0.4468687, y: 7.601, z: 0.8664682}
-  m_LocalScale: {x: 0.0238331, y: 0.023833107, z: 0.023833107}
-  m_LocalEulerAnglesHint: {x: 0, y: 130.11601, z: 0}
+  m_LocalRotation: {x: -0, y: 0.8914027, z: -0, w: 0.45321223}
+  m_LocalPosition: {x: -0.557, y: 7.613, z: 0.962}
+  m_LocalScale: {x: 0.024921337, y: 0.024921335, z: 0.024921348}
+  m_LocalEulerAnglesHint: {x: 0, y: 126.341, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 2
 --- !u!1 &41148221
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +438,7 @@ Transform:
   - {fileID: 506886527}
   - {fileID: 243326261}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!23 &115790769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -438,8 +501,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 124275844}
   m_LocalRotation: {x: -0.15126084, y: 0, z: 0, w: 0.9884939}
-  m_LocalPosition: {x: -0.136, y: 0.474, z: -0.001}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.14993, y: 0.49426, z: -0.0073483}
+  m_LocalScale: {x: -1.1118448, y: 0.9298096, z: 1}
   m_LocalEulerAnglesHint: {x: -17.4, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1900437261}
@@ -553,6 +616,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &136322620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 136322622}
+  - 114: {fileID: 136322621}
+  m_Layer: 0
+  m_Name: MainObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &136322621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136322620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43ddddab6a176749905b9c39973ea67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3: {x: 0, y: 120, z: 0}
+--- !u!4 &136322622
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136322620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 255853603}
+  - {fileID: 1359428899}
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
 --- !u!1 &139645757
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,8 +1097,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 121.92, y: -40.4, z: -3.854}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 136322622}
+  m_RootOrder: 0
 --- !u!1 &358258919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1138,137 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1243130628}
   m_Script: {fileID: 11500000, guid: a095f32c8084a4b1ba25c9153255dd10, type: 3}
+--- !u!1 &395854180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 395854181}
+  - 33: {fileID: 395854183}
+  - 23: {fileID: 395854182}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_BAR_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &395854181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 395854180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 825768870}
+  m_RootOrder: 0
+--- !u!23 &395854182
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 395854180}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &395854183
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 395854180}
+  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1 &405977912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 405977913}
+  - 108: {fileID: 405977914}
+  m_Layer: 0
+  m_Name: Spotlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &405977913
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 405977912}
+  m_LocalRotation: {x: 0.7720431, y: 0.014217517, z: 0.6351762, w: -0.01728098}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 182.539, y: -79.16199, z: 0}
+  m_Children: []
+  m_Father: {fileID: 456823685}
+  m_RootOrder: 0
+--- !u!108 &405977914
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 405977912}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &456823684 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
@@ -1040,6 +1277,22 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_PrefabInternal: {fileID: 1981798236}
+--- !u!114 &456823686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456823684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c12500f3afdeb24d9444042960a4cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomIntensity: 0.143
+  shader: {fileID: 4800000, guid: 6581f8d2f208b8340b8d59c7bf38cc9a, type: 3}
+  lensDirtTexture: {fileID: 2800000, guid: abe02d2cbc2af2248b68befc6b0a5d74, type: 3}
+  lensDirtIntensity: 0.95
+  inputIsHDR: 1
 --- !u!114 &456823696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,9 +1582,27 @@ MonoBehaviour:
   usedColors: 01010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   colormapPrecision: 1
   colormap: {fileID: 1494127378}
-  paletteTexture: {fileID: 980490074}
+  paletteTexture: {fileID: 1782660912}
   autoUpdateColormap: 1
   isUpdatingColormap: 0
+--- !u!114 &456823699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456823684}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31957ab02a8654b448736febf48c16e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FadeImage: {fileID: 0}
+  m_DefaultSnapshot: {fileID: 0}
+  m_FadedSnapshot: {fileID: 0}
+  m_FadeColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FadeDuration: 2
+  m_FadeInOnSceneLoad: 0
+  m_FadeInOnStart: 0
 --- !u!1 &483938689
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1709,10 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+--- !u!4 &504604912 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+  m_PrefabInternal: {fileID: 1434279777}
 --- !u!1 &506886526
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,11 +1924,11 @@ Transform:
   m_GameObject: {fileID: 513190124}
   m_LocalRotation: {x: -0, y: 0.42719194, z: -0, w: 0.904161}
   m_LocalPosition: {x: 4.14, y: 11.28, z: 3.38}
-  m_LocalScale: {x: 0.7839785, y: 5.3324738, z: 0.26699692}
+  m_LocalScale: {x: 0.78397846, y: 5.3324738, z: 0.26699692}
   m_LocalEulerAnglesHint: {x: 0, y: 50.319004, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1407034476}
+  m_RootOrder: 5
 --- !u!1001 &517064948
 Prefab:
   m_ObjectHideFlags: 0
@@ -1943,7 +2218,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400044, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 521706403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1953,7 +2228,7 @@ Transform:
   - {fileID: 243779387}
   - {fileID: 2047442568}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &546172921
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2298,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 546172921}
   m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!4 &554430088 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+  m_PrefabInternal: {fileID: 1792347065}
 --- !u!1 &573227633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,7 +2365,7 @@ Transform:
   - {fileID: 968522287}
   - {fileID: 358258920}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &600277215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2580,43 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 627909486}
   m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1 &660376831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 660376832}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660376832
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 660376831}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1720342102}
+  - {fileID: 1149330789}
+  - {fileID: 21501348}
+  - {fileID: 1764458632}
+  - {fileID: 1602563009}
+  - {fileID: 883110582}
+  - {fileID: 676100389}
+  - {fileID: 1149752917}
+  - {fileID: 1555553540}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
 --- !u!1 &665756166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,6 +2722,99 @@ SpriteRenderer:
   m_Color: {r: 0.5310346, g: 1, b: 0, a: 0.753}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &676100388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 676100389}
+  - 23: {fileID: 676100391}
+  - 102: {fileID: 676100390}
+  - 114: {fileID: 676100392}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &676100389
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676100388}
+  m_LocalRotation: {x: -0, y: -0.05182568, z: -0, w: 0.99865615}
+  m_LocalPosition: {x: -0.969, y: 7.634, z: 0.59551}
+  m_LocalScale: {x: -0.5671827, y: 0.5671827, z: 0.5671829}
+  m_LocalEulerAnglesHint: {x: 0, y: -5.775, z: 0}
+  m_Children: []
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 6
+--- !u!102 &676100390
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676100388}
+  m_Text: 00:00
+  m_OffsetZ: 0
+  m_CharacterSize: 0.04
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 70
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: c79b045e1fde2724b88167962054d238, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+--- !u!23 &676100391
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676100388}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c79b045e1fde2724b88167962054d238, type: 3}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!114 &676100392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 676100388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2f23fd4f9684d4b9abfe4d0bff610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsLeft: 60
 --- !u!1 &695176603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,8 +2840,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 695176603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.81, y: -2.87, z: -0.09000003}
-  m_LocalScale: {x: 9.144336, y: 4.17943, z: 1.5910635}
+  m_LocalPosition: {x: -4.85, y: -2.87, z: -0.09}
+  m_LocalScale: {x: 6.6366234, y: 1.9157752, z: 1.1547356}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1720342102}
@@ -2545,6 +2954,68 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 696517451}
   m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1 &733726209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 733726212}
+  - 114: {fileID: 733726211}
+  - 114: {fileID: 733726210}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &733726210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733726209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &733726211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733726209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &733726212
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733726209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
 --- !u!1 &767487240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5141,7 +5612,7 @@ Transform:
   - {fileID: 1190841242}
   - {fileID: 1479483547}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!23 &789189569
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5248,6 +5719,104 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 798372205}
   m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1 &825768869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 825768870}
+  - 33: {fileID: 825768874}
+  - 23: {fileID: 825768873}
+  - 64: {fileID: 825768872}
+  - 54: {fileID: 825768871}
+  m_Layer: 15
+  m_Name: EPOD_CHAIR_MAIN_GEO (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &825768870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825768869}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.9360006, y: 6.315, z: 0}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 395854181}
+  m_Father: {fileID: 1340890040}
+  m_RootOrder: 0
+--- !u!54 &825768871
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825768869}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &825768872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825768869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!23 &825768873
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825768869}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &825768874
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825768869}
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
 --- !u!1 &835660248
 GameObject:
   m_ObjectHideFlags: 0
@@ -5395,13 +5964,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 878949788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 13
 --- !u!1 &883110580
 GameObject:
   m_ObjectHideFlags: 0
@@ -5459,12 +6028,12 @@ Transform:
   m_GameObject: {fileID: 883110580}
   m_LocalRotation: {x: -0, y: 0.90581447, z: -0, w: 0.42367467}
   m_LocalPosition: {x: -0.46664977, y: 7.601, z: 0.8837224}
-  m_LocalScale: {x: 0.0238331, y: 0.023833107, z: 0.023833107}
+  m_LocalScale: {x: 0.02383311, y: 0.023833107, z: 0.023833118}
   m_LocalEulerAnglesHint: {x: 0, y: 130.11601, z: 0}
   m_Children:
   - {fileID: 936066265}
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 5
 --- !u!1 &886215701
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,7 +6337,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5784,7 +6353,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_IsActive
@@ -5793,6 +6362,82 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &952081298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 952081301}
+  - 108: {fileID: 952081300}
+  - 114: {fileID: 952081299}
+  m_Layer: 0
+  m_Name: Spotlight (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &952081299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952081298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43ddddab6a176749905b9c39973ea67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3: {x: 0, y: 100, z: 0}
+--- !u!108 &952081300
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952081298}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.2205882, g: 0, b: 0, a: 1}
+  m_Intensity: 6.28
+  m_Range: 10
+  m_SpotAngle: 90.4
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &952081301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952081298}
+  m_LocalRotation: {x: 0.82220733, y: -0.00003479002, z: 0.5687718, w: -0.021768115}
+  m_LocalPosition: {x: -1.404922, y: 8.46879, z: 0.98555946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180.873, y: 120, z: 2.3369904}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &957096935
 GameObject:
   m_ObjectHideFlags: 0
@@ -5803,12 +6448,12 @@ GameObject:
   - 4: {fileID: 957096937}
   - 114: {fileID: 957096936}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ExploderController
   m_TagString: Exploder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &957096936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5827,13 +6472,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957096935}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 19.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1407034476}
+  m_RootOrder: 3
 --- !u!1 &964783548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,39 +6577,6 @@ Transform:
   - {fileID: 199494244}
   m_Father: {fileID: 585546523}
   m_RootOrder: 2
---- !u!28 &980490074
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  serializedVersion: 2
-  m_Width: 256
-  m_Height: 1
-  m_CompleteImageSize: 768
-  m_TextureFormat: 3
-  m_MipCount: 1
-  m_IsReadable: 1
-  m_ReadAllowed: 1
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    m_FilterMode: 0
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapMode: 1
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  image data: 768
-  _typelessdata: 2f2010e79240cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!114 &983408795 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: 87b7d3908cf494d508d7fa1be5174c7e,
@@ -6076,7 +6688,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6425,7 +7037,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1132732536}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6438,7 +7050,7 @@ Transform:
   - {fileID: 517064950}
   - {fileID: 626965226}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 15
 --- !u!1 &1144011813
 GameObject:
   m_ObjectHideFlags: 0
@@ -6512,7 +7124,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1407034476}
     m_Modifications:
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6528,15 +7140,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6544,7 +7156,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -6622,13 +7234,95 @@ Transform:
   m_GameObject: {fileID: 1149330787}
   m_LocalRotation: {x: -0, y: 0.90581447, z: -0, w: 0.42367467}
   m_LocalPosition: {x: -0.46664977, y: 7.601, z: 0.8837224}
-  m_LocalScale: {x: 0.0238331, y: 0.023833107, z: 0.023833107}
+  m_LocalScale: {x: 0.02383311, y: 0.023833107, z: 0.023833118}
   m_LocalEulerAnglesHint: {x: 0, y: 130.11601, z: 0}
   m_Children:
   - {fileID: 665756167}
   - {fileID: 125627585}
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 1
+--- !u!1 &1149752916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1149752917}
+  - 23: {fileID: 1149752920}
+  - 102: {fileID: 1149752919}
+  m_Layer: 0
+  m_Name: Text 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149752917
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1149752916}
+  m_LocalRotation: {x: 0, y: -0.05037496, z: 0, w: 0.9987304}
+  m_LocalPosition: {x: -0.93796, y: 7.7286, z: 0.60207}
+  m_LocalScale: {x: -0.7760672, y: 0.7760674, z: 0.7760676}
+  m_LocalEulerAnglesHint: {x: 0, y: -5.775, z: 0}
+  m_Children: []
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 7
+--- !u!102 &1149752919
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1149752916}
+  m_Text: 'SELF DESTRUCTION
+
+    ACTIVATED'
+  m_OffsetZ: 0
+  m_CharacterSize: 0.01
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 70
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: c79b045e1fde2724b88167962054d238, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+--- !u!23 &1149752920
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1149752916}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c79b045e1fde2724b88167962054d238, type: 3}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!114 &1173929492 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: 0e5deae918b9240b09fe36d0496dcce0,
@@ -6761,13 +7455,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1228961464}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.24, y: 6.81, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 14
 --- !u!1 &1229507752
 GameObject:
   m_ObjectHideFlags: 0
@@ -6854,8 +7548,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1234534042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.01, y: 3.19, z: -0.09000003}
-  m_LocalScale: {x: 9.742947, y: 3.5194392, z: 1.5910635}
+  m_LocalPosition: {x: -5.01, y: 2.63, z: -0.09000003}
+  m_LocalScale: {x: 7.1548405, y: 2.6081233, z: 1.5910635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1720342102}
@@ -7236,7 +7930,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1693512281}
+  - {fileID: 825768870}
   m_Father: {fileID: 585546523}
   m_RootOrder: 1
 --- !u!1 &1345612748
@@ -7359,8 +8053,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: -70, y: -380.9, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 136322622}
+  m_RootOrder: 1
 --- !u!108 &1359428900
 Light:
   m_ObjectHideFlags: 0
@@ -7424,6 +8118,40 @@ Transform:
   - {fileID: 512651152}
   m_Father: {fileID: 573227634}
   m_RootOrder: 0
+--- !u!1 &1407034475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1407034476}
+  m_Layer: 0
+  m_Name: Explosion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407034476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407034475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 554430088}
+  - {fileID: 1496688390}
+  - {fileID: 1693095371}
+  - {fileID: 957096937}
+  - {fileID: 504604912}
+  - {fileID: 513190128}
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
 --- !u!1 &1414346535
 GameObject:
   m_ObjectHideFlags: 0
@@ -7497,7 +8225,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1407034476}
     m_Modifications:
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7513,7 +8241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7529,7 +8257,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_Name
@@ -7650,6 +8378,10 @@ Texture3D:
   m_IsReadable: 1
   image data: 32768
   _typelessdata: 0000000000000000000000000000000000000000000000000001010101010101000000000000000000000000000000000000000000000000000101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000000101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000001010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+--- !u!4 &1496688390 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+  m_PrefabInternal: {fileID: 1145540564}
 --- !u!1 &1532944139
 GameObject:
   m_ObjectHideFlags: 0
@@ -7714,19 +8446,98 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532944139}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -618.6, y: -16.4, z: -475.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 21
+--- !u!1 &1555553536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1555553540}
+  - 33: {fileID: 1555553539}
+  - 64: {fileID: 1555553538}
+  - 23: {fileID: 1555553537}
+  m_Layer: 0
+  m_Name: S_BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1555553537
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555553536}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b63f128af84c0fc4391a1d4f691f9e98, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1555553538
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555553536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1555553539
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555553536}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1555553540
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1555553536}
+  m_LocalRotation: {x: 0.7059184, y: -0.04097919, z: 0.040979184, w: 0.7059184}
+  m_LocalPosition: {x: -1.1759, y: 7.6022, z: 0.586}
+  m_LocalScale: {x: 0.050798688, y: 0.0031749199, z: 0.02857428}
+  m_LocalEulerAnglesHint: {x: 89.981, y: 0, z: 6.4610004}
+  m_Children: []
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 8
 --- !u!1001 &1591792956
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1407034476}
     m_Modifications:
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7742,7 +8553,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_LocalRotation.y
@@ -7750,7 +8561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_LocalRotation.w
@@ -7758,7 +8569,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: m_Name
@@ -7839,6 +8650,10 @@ Prefab:
     - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
       propertyPath: FragmentPoolSize
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 7.100001
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
@@ -7975,12 +8790,12 @@ Transform:
   m_GameObject: {fileID: 1602563006}
   m_LocalRotation: {x: -0.46471167, y: 0.46471137, z: 0.53295714, w: -0.53295696}
   m_LocalPosition: {x: -0.9285001, y: 7.601, z: -0.07447195}
-  m_LocalScale: {x: 1.2568059, y: 1.4500003, z: 1.0000002}
+  m_LocalScale: {x: 1.2568059, y: 1.4500003, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 277.615, z: -90.00001}
   m_Children:
   - {fileID: 1144011814}
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 4
 --- !u!1001 &1640417030
 Prefab:
   m_ObjectHideFlags: 0
@@ -8167,211 +8982,102 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1647357415}
   m_Mesh: {fileID: 4300000, guid: 4086746214fee2c4cb125ee72d49144a, type: 3}
---- !u!1 &1693512280
+--- !u!1 &1663560919
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1693512281}
-  - 33: {fileID: 1693512283}
-  - 23: {fileID: 1693512282}
-  - 64: {fileID: 1693512285}
-  - 54: {fileID: 1693512284}
-  m_Layer: 0
-  m_Name: EPOD_CHAIR_MAIN_GEO
+  - 224: {fileID: 1663560923}
+  - 223: {fileID: 1663560922}
+  - 114: {fileID: 1663560921}
+  - 114: {fileID: 1663560920}
+  m_Layer: 5
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &1693512281
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1693512280}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.936, y: 6.315, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 2019967071}
-  m_Father: {fileID: 1340890040}
-  m_RootOrder: 0
---- !u!23 &1693512282
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300010, guid: 41ee30922b18f93439b4331535c25fab,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1693512280}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1693512283
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300010, guid: 41ee30922b18f93439b4331535c25fab,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1693512280}
-  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
---- !u!54 &1693512284
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1693512280}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!64 &1693512285
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1693512280}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
---- !u!1 &1702266987
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1702266992}
-  - 33: {fileID: 1702266991}
-  - 65: {fileID: 1702266990}
-  - 23: {fileID: 1702266989}
-  - 114: {fileID: 1702266988}
-  - 54: {fileID: 1702266993}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Exploder
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1702266988
+  m_IsActive: 1
+--- !u!114 &1663560920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
+  m_GameObject: {fileID: 1663560919}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3755a18fce205a24ba1cda25853e801c, type: 3}
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!23 &1702266989
-MeshRenderer:
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1663560921
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
+  m_GameObject: {fileID: 1663560919}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!65 &1702266990
-BoxCollider:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1663560922
+Canvas:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 1663560919}
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1702266991
-MeshFilter:
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1663560923
+RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1702266992
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
+  m_GameObject: {fileID: 1663560919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.73, y: 13.96, z: 6.86}
-  m_LocalScale: {x: 1.9250388, y: 1.9250389, z: 1.9250389}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
---- !u!54 &1702266993
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1702266987}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_RootOrder: 17
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!4 &1693095371 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+  m_PrefabInternal: {fileID: 1591792956}
 --- !u!1 &1720342100
 GameObject:
   m_ObjectHideFlags: 0
@@ -8394,7 +9100,7 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1720342100}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_MotionVectors: 1
@@ -8428,14 +9134,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1720342100}
   m_LocalRotation: {x: -0, y: 0.90581447, z: -0, w: 0.42367467}
-  m_LocalPosition: {x: -0.46664977, y: 7.601, z: 0.8837224}
-  m_LocalScale: {x: 0.0238331, y: 0.023833107, z: 0.023833107}
+  m_LocalPosition: {x: -0.5685, y: 7.601, z: 0.9688}
+  m_LocalScale: {x: 0.02383311, y: 0.023833107, z: 0.023833118}
   m_LocalEulerAnglesHint: {x: 0, y: 130.11601, z: 0}
   m_Children:
   - {fileID: 1234534043}
   - {fileID: 695176604}
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 0
 --- !u!1 &1754607905
 GameObject:
   m_ObjectHideFlags: 0
@@ -8563,18 +9269,51 @@ Transform:
   m_GameObject: {fileID: 1764458629}
   m_LocalRotation: {x: 0.68791896, y: 0.6879186, z: -0.1636085, w: -0.1636086}
   m_LocalPosition: {x: -0.5837623, y: 7.614, z: 2.4921622}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 206.64499, z: 90.00001}
   m_Children:
   - {fileID: 886215702}
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 660376832}
+  m_RootOrder: 3
+--- !u!28 &1782660912
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  serializedVersion: 2
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 768
+  m_TextureFormat: 3
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_ReadAllowed: 1
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 768
+  _typelessdata: 2f2010e79240cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1792347065
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1407034476}
     m_Modifications:
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8590,15 +9329,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8606,7 +9345,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
       propertyPath: m_LocalScale.x
@@ -8984,7 +9723,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11408010, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_Enabled
@@ -9010,77 +9749,41 @@ Prefab:
       propertyPath: InitialModule.startSize.scalar
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: chromaticAberration
+      value: 7.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: blur
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: blurSpread
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2019967070
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2019967071}
-  - 33: {fileID: 2019967073}
-  - 23: {fileID: 2019967072}
-  m_Layer: 0
-  m_Name: EPOD_CHAIR_BAR_GEO
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &2019967071
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019967070}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1693512281}
-  m_RootOrder: 0
---- !u!23 &2019967072
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300008, guid: 41ee30922b18f93439b4331535c25fab,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019967070}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &2019967073
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300008, guid: 41ee30922b18f93439b4331535c25fab,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2019967070}
-  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
 --- !u!1 &2024511665
 GameObject:
   m_ObjectHideFlags: 0
@@ -9288,6 +9991,82 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2047442567}
   m_Mesh: {fileID: 4300002, guid: f65e82dc6e6dea84b91b31e72e08a7b4, type: 3}
+--- !u!1 &2052184319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2052184322}
+  - 108: {fileID: 2052184321}
+  - 114: {fileID: 2052184320}
+  m_Layer: 0
+  m_Name: Spotlight (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2052184320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052184319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43ddddab6a176749905b9c39973ea67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3: {x: 0, y: 100, z: 0}
+--- !u!108 &2052184321
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052184319}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.2205882, g: 0, b: 0, a: 1}
+  m_Intensity: 6.28
+  m_Range: 10
+  m_SpotAngle: 90.4
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &2052184322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052184319}
+  m_LocalRotation: {x: 0.9036743, y: -0.01886912, z: -0.42766696, w: -0.010853915}
+  m_LocalPosition: {x: -1.404922, y: 8.46879, z: 0.98555946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180.873, y: 240, z: 2.3369904}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!114 &2057752378 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: 6031bc067fe084b5bb37393fc54669c6,
@@ -9298,6 +10077,82 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6031bc067fe084b5bb37393fc54669c6, type: 2}
   m_PrefabInternal: {fileID: 215184215}
+--- !u!1 &2112985925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2112985928}
+  - 108: {fileID: 2112985927}
+  - 114: {fileID: 2112985926}
+  m_Layer: 0
+  m_Name: Spotlight (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2112985926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112985925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43ddddab6a176749905b9c39973ea67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3: {x: 0, y: 100, z: 0}
+--- !u!108 &2112985927
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112985925}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.2205882, g: 0, b: 0, a: 1}
+  m_Intensity: 6.28
+  m_Range: 10
+  m_SpotAngle: 90.4
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &2112985928
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112985925}
+  m_LocalRotation: {x: -0.08146667, y: 0.018834352, z: 0.9964383, w: -0.010914178}
+  m_LocalPosition: {x: -1.404922, y: 8.46879, z: 0.98555946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 180.873, y: 0, z: 2.3369904}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &2118864405
 GameObject:
   m_ObjectHideFlags: 0
@@ -11067,3 +11922,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1913361672}
   m_RootOrder: 3
+--- !u!1 &2125546280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 2125546281}
+  - 222: {fileID: 2125546283}
+  - 114: {fileID: 2125546282}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2125546281
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125546280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 554, y: 450}
+  m_SizeDelta: {x: 1108, y: 900}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2125546282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125546280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.80689657, b: 0, a: 0.003921569}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 5d3db19d03f102646ab9eeb8505d230e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2125546283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2125546280}
