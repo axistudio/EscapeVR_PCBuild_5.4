@@ -92,6 +92,74 @@ NavMeshSettings:
     cellSize: 0.16666666
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &41148221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 41148222}
+  - 33: {fileID: 41148224}
+  - 23: {fileID: 41148223}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_BAR_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &41148222
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41148221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 199494244}
+  m_RootOrder: 0
+--- !u!23 &41148223
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41148221}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &41148224
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41148221}
+  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
 --- !u!1 &73083018
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +378,104 @@ Transform:
   - {fileID: 1103507966}
   m_Father: {fileID: 573227634}
   m_RootOrder: 2
+--- !u!1 &199494243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 199494244}
+  - 33: {fileID: 199494246}
+  - 23: {fileID: 199494245}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_MAIN_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &199494244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199494243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.936, y: 6.315, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 41148222}
+  m_Father: {fileID: 968522287}
+  m_RootOrder: 0
+--- !u!23 &199494245
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199494243}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &199494246
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 199494243}
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!1 &214085295
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100022, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 214085296}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &214085296
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400022, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214085295}
+  m_LocalRotation: {x: 0, y: 0.3826835, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -1.063098, y: -4.155608, z: -0.50027657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1866724142}
+  m_Father: {fileID: 585546523}
+  m_RootOrder: 0
 --- !u!1 &243326260
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +655,364 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!1 &358258919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 358258920}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &358258920
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358258919}
+  m_LocalRotation: {x: 0, y: -0.92387956, z: 0, w: 0.38268346}
+  m_LocalPosition: {x: -1.063098, y: -4.155608, z: -0.50027657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 964783549}
+  m_Father: {fileID: 585546523}
+  m_RootOrder: 3
+--- !u!28 &431798347
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  serializedVersion: 2
+  m_Width: 256
+  m_Height: 1
+  m_CompleteImageSize: 768
+  m_TextureFormat: 3
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_ReadAllowed: 1
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 768
+  _typelessdata: 2f2010e79240cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &456823684 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100004, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+  m_PrefabInternal: {fileID: 1981798236}
+--- !u!114 &456823696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456823684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea59781cad112c75d0008dfa8d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 67f8781cad112c75d0008dfa8d76c639, type: 3}
+  textureRamp: {fileID: 2800000, guid: 8e3ff3e27ca4bc54dda56e89e0550dfa, type: 3}
+--- !u!114 &456823697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 456823684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78eb003e1eaf343d887cc29f4e64d210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalResolution: 640
+  verticalResolution: 480
+  strength: 0.367
+  numberOfColors: 2
+  preset: 10
+  palette:
+  - {r: 0.18431373, g: 0.1254902, b: 0.0627451, a: 1}
+  - {r: 0.90588236, g: 0.57254905, b: 0.2509804, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0.4862745, g: 0, b: 0, a: 1}
+  - {r: 0.4862745, g: 0, b: 0.49411765, a: 1}
+  - {r: 0.49019608, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.49803922, a: 1}
+  - {r: 0.99607843, g: 0, b: 1, a: 1}
+  - {r: 0.023529412, g: 0.5176471, b: 0, a: 1}
+  - {r: 0.0627451, g: 0.5019608, b: 0.49411765, a: 1}
+  - {r: 0.050980393, g: 0.47843137, b: 1, a: 1}
+  - {r: 0.49803922, g: 0.5058824, b: 0, a: 1}
+  - {r: 0.49411765, g: 0.49411765, b: 0.49411765, a: 1}
+  - {r: 0.49019608, g: 0.45490196, b: 1, a: 1}
+  - {r: 0.99215686, g: 0.49019608, b: 0.023529412, a: 1}
+  - {r: 0.99215686, g: 0.48235294, b: 0.49803922, a: 1}
+  - {r: 0.99607843, g: 0.4392157, b: 1, a: 1}
+  - {r: 0.13333334, g: 1, b: 0.011764706, a: 1}
+  - {r: 0.043137256, g: 1, b: 0.47843137, a: 1}
+  - {r: 0.12941177, g: 1, b: 1, a: 1}
+  - {r: 0.5137255, g: 1, b: 0.023529412, a: 1}
+  - {r: 0.5176471, g: 1, b: 0.49803922, a: 1}
+  - {r: 0.5137255, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 0.03529412, a: 1}
+  - {r: 1, g: 1, b: 0.47058824, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  usedColors: 01010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  colormapPrecision: 1
+  colormap: {fileID: 1494127378}
+  paletteTexture: {fileID: 431798347}
+  autoUpdateColormap: 1
+  isUpdatingColormap: 0
 --- !u!1 &483938689
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +1077,48 @@ Light:
   m_BounceIntensity: 1.5
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &504604906 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+  m_PrefabInternal: {fileID: 1434279777}
+--- !u!54 &504604907
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504604906}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &504604908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504604906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3755a18fce205a24ba1cda25853e801c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &504604909
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504604906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
 --- !u!1 &506886526
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,6 +1256,85 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512651151}
   m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!1 &513190124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 513190128}
+  - 33: {fileID: 513190127}
+  - 65: {fileID: 513190126}
+  - 23: {fileID: 513190125}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &513190125
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513190124}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &513190126
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513190124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &513190127
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513190124}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &513190128
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 513190124}
+  m_LocalRotation: {x: -0, y: 0.42719194, z: -0, w: 0.904161}
+  m_LocalPosition: {x: 4.14, y: 11.28, z: 3.38}
+  m_LocalScale: {x: 0.7839785, y: 5.3324738, z: 0.26699692}
+  m_LocalEulerAnglesHint: {x: 0, y: 50.319004, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
 --- !u!1 &521706403
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +1363,7 @@ Transform:
   m_Children:
   - {fileID: 2047442568}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &546172921
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +1465,38 @@ Transform:
   - {fileID: 73083019}
   m_Father: {fileID: 2047442568}
   m_RootOrder: 1
+--- !u!1 &585546522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100024, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 585546523}
+  m_Layer: 0
+  m_Name: REENTRY_CRAFT_CHAIRS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &585546523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400032, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585546522}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.063098, y: 3.784, z: 0.50027657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 214085296}
+  - {fileID: 1340890040}
+  - {fileID: 968522287}
+  - {fileID: 358258920}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &600277215
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +1633,142 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 601338397}
   m_Mesh: {fileID: 4300002, guid: 88d9e6fc0cfd9304e99eb4d5046d0008, type: 3}
+--- !u!1 &627909486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 627909487}
+  - 33: {fileID: 627909489}
+  - 23: {fileID: 627909488}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_BAR_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &627909487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627909486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1866724142}
+  m_RootOrder: 0
+--- !u!23 &627909488
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300012, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627909486}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &627909489
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300012, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627909486}
+  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1 &696517451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 696517452}
+  - 33: {fileID: 696517454}
+  - 23: {fileID: 696517453}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_BAR_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &696517452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696517451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 964783549}
+  m_RootOrder: 0
+--- !u!23 &696517453
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696517451}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &696517454
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 696517451}
+  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
 --- !u!1 &789189567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +2021,53 @@ LensFlare:
     serializedVersion: 2
     m_Bits: 6
   m_Directional: 1
+--- !u!1 &878949788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 878949790}
+  - 64: {fileID: 878949789}
+  m_Layer: 15
+  m_Name: SpaceShipCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &878949789
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878949788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
+--- !u!4 &878949790
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878949788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+--- !u!114 &893959289 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646,
+    type: 2}
+  m_PrefabInternal: {fileID: 1591792956}
+  m_Script: {fileID: 11500000, guid: b945f9aa6e0d3de46ab1fabcf3b510b6, type: 3}
 --- !u!1001 &939355384
 Prefab:
   m_ObjectHideFlags: 0
@@ -1245,11 +2105,154 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &957096935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 957096937}
+  - 114: {fileID: 957096936}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Exploder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &957096936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957096935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac90a4ef91b043409d8f78d34d5786b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exploder: {fileID: 893959289}
+--- !u!4 &957096937
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957096935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 19.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+--- !u!1 &964783548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 964783549}
+  - 33: {fileID: 964783551}
+  - 23: {fileID: 964783550}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_MAIN_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &964783549
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964783548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.936, y: 6.315, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 696517452}
+  m_Father: {fileID: 358258920}
+  m_RootOrder: 0
+--- !u!23 &964783550
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964783548}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &964783551
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 964783548}
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!1 &968522286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 968522287}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &968522287
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 968522286}
+  m_LocalRotation: {x: 0, y: -0.3826835, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -1.063098, y: -4.155608, z: -0.50027657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 199494244}
+  m_Father: {fileID: 585546523}
+  m_RootOrder: 2
 --- !u!1 &1031045011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,7 +2354,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1359,7 +2362,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 88cb87f1234e09c4db5420475f293689, type: 2}
     - target: {fileID: 100000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 789a1501cbacd439ca42d6dd0e15cdf2, type: 3}
       propertyPath: m_LocalScale.x
@@ -1445,6 +2448,64 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1103507965}
   m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!1001 &1145540564
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88cb87f1234e09c4db5420475f293689, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bdaa5a0a83277f74f8a78d39284c08e4, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1190841241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,6 +2574,67 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1190841241}
   m_Mesh: {fileID: 4300000, guid: e592c92234ac7794a8fa75a04a4773d6, type: 3}
+--- !u!1 &1228961464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1228961466}
+  - 215: {fileID: 1228961465}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &1228961465
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228961464}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 1
+  m_RefreshMode: 1
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 5, y: 5, z: 5}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 0.1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &1228961466
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228961464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.24, y: 6.81, z: -0.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
 --- !u!1 &1229507752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,6 +2696,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 106951315}
   m_RootOrder: 2
+--- !u!1 &1340890039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1340890040}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1340890040
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1340890039}
+  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268346}
+  m_LocalPosition: {x: -1.063098, y: -4.155608, z: -0.50027657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1693512281}
+  m_Father: {fileID: 585546523}
+  m_RootOrder: 1
 --- !u!1 &1345612748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,6 +2978,72 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414346535}
   m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
+--- !u!1001 &1434279777
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.26636878
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.96387124
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_Name
+      value: REENTRY_CRAFT_outside_Fbx (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.43660355
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.43660355
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.43660355
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e654239ea3c6644adbeb2e5f70e1afe2, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1479483546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +3112,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479483546}
   m_Mesh: {fileID: 4300004, guid: 88d9e6fc0cfd9304e99eb4d5046d0008, type: 3}
+--- !u!117 &1494127378
+Texture3D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  serializedVersion: 2
+  m_Width: 32
+  m_Height: 32
+  m_Depth: 32
+  m_Format: 1
+  m_MipCount: 1
+  m_DataSize: 32768
+  m_TextureSettings:
+    m_FilterMode: 0
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 1
+  m_IsReadable: 1
+  image data: 32768
+  _typelessdata: 0000000000000000000000000000000000000000000000000001010101010101000000000000000000000000000000000000000000000000000101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000000010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000000101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000001010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000000010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000000101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000001010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000000010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000000101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000001010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000001010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000000010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000000101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000001010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000000010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000000101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000001010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000000010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000000101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000001010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000000010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000000101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000001010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000000000000000000000000000000000000010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010000000000000000000000000000000000000101010101010101010101010101000000000000000000000000000000000001010101010101010101010101010100000000000000000000000000000000010101010101010101010101010101010000000000000000000000000000000001010101010101010101010101010101000000000000000000000000000000010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000000010101010101010101010101010101010101000000000000000000000000000101010101010101010101010101010101010100000000000000000000000000010101010101010101010101010101010101010000000000000000000000000101010101010101010101010101010101010101000000000000000000000001010101010101010101010101010101010101010100000000000000000000000101010101010101010101010101010101010101010000000000000000000001010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000001010101010101010101010101010101010101010101010000000000000000010101010101010101010101010101010101010101010101000000000000000001010101010101010101010101010101010101010101010100000000000000010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000000010101010101010101010101010101010101010101010101010100000000000101010101010101010101010101010101010101010101010101010000000000010101010101010101010101010101010101010101010101010101000000000101010101010101010101010101010101010101010101010101010100000001010101010101010101010101010101010101010101010101010101010000000101010101010101010101010101010101010101010101010101010101000001010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100000000000000000000000000000000000101010101010101010101010101010000000000000000000000000000000000010101010101010101010101010101000000000000000000000000000000000101010101010101010101010101010100000000000000000000000000000001010101010101010101010101010101010000000000000000000000000000000101010101010101010101010101010101000000000000000000000000000001010101010101010101010101010101010100000000000000000000000000000101010101010101010101010101010101010000000000000000000000000001010101010101010101010101010101010101000000000000000000000000010101010101010101010101010101010101010100000000000000000000000001010101010101010101010101010101010101010000000000000000000000010101010101010101010101010101010101010101000000000000000000000101010101010101010101010101010101010101010100000000000000000000010101010101010101010101010101010101010101010000000000000000000101010101010101010101010101010101010101010101000000000000000000010101010101010101010101010101010101010101010100000000000000000101010101010101010101010101010101010101010101010000000000000001010101010101010101010101010101010101010101010101000000000000000101010101010101010101010101010101010101010101010100000000000001010101010101010101010101010101010101010101010101010000000000000101010101010101010101010101010101010101010101010101000000000001010101010101010101010101010101010101010101010101010100000000010101010101010101010101010101010101010101010101010101010000000001010101010101010101010101010101010101010101010101010101000000010101010101010101010101010101010101010101010101010101010100000101010101010101010101010101010101010101010101010101010101010000010101010101010101010101010101010101010101010101010101010101000101010101010101010101010101010101010101010101010101010101010100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
 --- !u!1 &1532944139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,6 +3207,129 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!1001 &1591792956
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 6.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.6877847
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7259148
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_Name
+      value: Exploder
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: DontUseTag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: ExplodeFragments
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentOptions.Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentPrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: Radius
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: MeshColliders
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: TargetFragments
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: Force
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentOptions.MaxAngularVelocity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentOptions.UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentOptions.Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: SplitMeshIslands
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FrameBudget
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: UseForceVector
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentOptions.MaxVelocity
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+      propertyPath: FragmentPoolSize
+      value: 300
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11400000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 4d83041cf64e7214587bdfcd756c5646, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1598389793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,6 +3466,182 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1647357415}
   m_Mesh: {fileID: 4300000, guid: 4086746214fee2c4cb125ee72d49144a, type: 3}
+--- !u!1 &1693512280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100014, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1693512281}
+  - 33: {fileID: 1693512283}
+  - 23: {fileID: 1693512282}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_MAIN_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1693512281
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693512280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.936, y: 6.315, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2019967071}
+  m_Father: {fileID: 1340890040}
+  m_RootOrder: 0
+--- !u!23 &1693512282
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693512280}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1693512283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1693512280}
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
+--- !u!1 &1702266987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1702266992}
+  - 33: {fileID: 1702266991}
+  - 65: {fileID: 1702266990}
+  - 23: {fileID: 1702266989}
+  - 114: {fileID: 1702266988}
+  - 54: {fileID: 1702266993}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Exploder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1702266988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3755a18fce205a24ba1cda25853e801c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &1702266989
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &1702266990
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1702266991
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1702266992
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.73, y: 13.96, z: 6.86}
+  m_LocalScale: {x: 1.9250388, y: 1.9250389, z: 1.9250389}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+--- !u!54 &1702266993
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702266987}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1754607905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2166,6 +3706,68 @@ Light:
   m_BounceIntensity: 1.5
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1792347065
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88cb87f1234e09c4db5420475f293689, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1861216084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2210,10 +3812,145 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!1 &1866724141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1866724142}
+  - 33: {fileID: 1866724144}
+  - 23: {fileID: 1866724143}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_MAIN_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1866724142
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400014, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866724141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.936, y: 6.315, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 627909487}
+  m_Father: {fileID: 214085296}
+  m_RootOrder: 0
+--- !u!23 &1866724143
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300014, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866724141}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1866724144
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300014, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1866724141}
+  m_Mesh: {fileID: 4300000, guid: ccae3dbbc507f3747b6fd78b92f22c7b, type: 3}
 --- !u!4 &1913361672 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_PrefabInternal: {fileID: 1981798236}
+--- !u!1 &1944130630 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+  m_PrefabInternal: {fileID: 1792347065}
+--- !u!114 &1944130634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944130630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3755a18fce205a24ba1cda25853e801c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1944130635
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944130630}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1944130636
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944130630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: 0a1d393e0e28cb84c9de9c0e83e434bb, type: 3}
+--- !u!65 &1944130637
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944130630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.01950716, y: 0.02971895, z: 0.02498107}
+  m_Center: {x: 0.01396338, y: 0.07780349, z: 0.009586634}
+--- !u!135 &1944130638
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1944130630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 0.014859475
+  m_Center: {x: 0.01396338, y: 0.07780349, z: 0.009586634}
 --- !u!1 &1979925319
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,15 +3992,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1.075
+      value: -1.013
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.375
+      value: 6.76
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.60699993
+      value: 1.478
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2271,7 +4008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.36142054
+      value: 0.63533497
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalRotation.z
@@ -2279,7 +4016,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9324029
+      value: 0.77223676
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_RootOrder
@@ -2295,11 +4032,115 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 42.488003
+      value: 79.162
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408010, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: useSrcAlphaAsMask
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408010, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: lensflares
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11408010, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11494822, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11425226, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11434846, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2019967070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2019967071}
+  - 33: {fileID: 2019967073}
+  - 23: {fileID: 2019967072}
+  m_Layer: 0
+  m_Name: EPOD_CHAIR_BAR_GEO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2019967071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 41ee30922b18f93439b4331535c25fab, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019967070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.302135, y: 1.58971, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1693512281}
+  m_RootOrder: 0
+--- !u!23 &2019967072
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019967070}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acc404ad17fbe0742b91056acdfd723a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2019967073
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 41ee30922b18f93439b4331535c25fab,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2019967070}
+  m_Mesh: {fileID: 4300002, guid: bdf8ba22afe061345a4bc98a64ef9362, type: 3}
 --- !u!1 &2024511665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,7 +4388,7 @@ ParticleSystemRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_SelectedWireframeHidden: 0
+  m_SelectedWireframeHidden: 1
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89

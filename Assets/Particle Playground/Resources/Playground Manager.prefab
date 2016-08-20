@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 114000010184072466}
+  - 114: {fileID: 114000010292722570}
+  m_Layer: 0
+  m_Name: Playground Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf99e9c3c4b714a96a2d7ed6cc281814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystems:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  manipulators: []
+  paintMaxPositions: 10000
+  calculate: 1
+  pixelFilterMode: 1
+  autoGroup: 1
+  buildZeroAlphaPixels: 0
+  drawGizmos: 1
+  drawSourcePositions: 0
+  showShuriken: 0
+  paintToolbox: 1
+  collisionPlaneScale: 0.1
+  showSnapshotsInHierarchy: 0
+  drawWireframe: 0
+  drawSplinePreview: 1
+  globalTimeScale: 1
+  threadPoolMethod: 1
+  threadMethod: 3
+  skinnedMeshThreadMethod: 1
+  turbulenceThreadMethod: 0
+  maxThreads: 8
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!114 &114000010184072466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd22d17ed7f31487db6f1305d10dfeef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 1, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 3, y: 0, z: 0}
+  - {x: 4, y: 0, z: 0}
+  modes: 0000000000000000
+  loop: 0
+  transformNodes:
+  - enabled: 0
+    transform: {fileID: 0}
+  - enabled: 0
+    transform: {fileID: 0}
+  - enabled: 0
+    transform: {fileID: 0}
+  - enabled: 0
+    transform: {fileID: 0}
+  reverse: 0
+  timeOffset: 0
+  positionOffset: {x: 0, y: 0, z: 0}
+  splineTransform: {fileID: 0}
+  splineTransformMx:
+    e00: 0
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 0
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 0
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 0
+  usedBy: []
+  fixedVelocityOnNewNode: 0.5
+  moveTransformsAsBeziers: 0
+  exportWithNodeStructure: 0
+  drawGizmo: 1
+  bezierWidth: 2
+--- !u!114 &114000010292722570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bc001fa44a547bb86aea579a67ae0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playgroundSystem: {fileID: 0}
+  material: {fileID: 0}
+  lifetimeColor:
+    key0:
+      serializedVersion: 2
+      rgba: 4294967295
+    key1:
+      serializedVersion: 2
+      rgba: 4294967295
+    key2:
+      serializedVersion: 2
+      rgba: 0
+    key3:
+      serializedVersion: 2
+      rgba: 0
+    key4:
+      serializedVersion: 2
+      rgba: 0
+    key5:
+      serializedVersion: 2
+      rgba: 0
+    key6:
+      serializedVersion: 2
+      rgba: 0
+    key7:
+      serializedVersion: 2
+      rgba: 0
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  pointArrayAlpha:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  colorMode: 0
+  uvMode: 0
+  renderMode: 0
+  billboardTransform: {fileID: 0}
+  customRenderScale: {x: 1, y: 1, z: 1}
+  receiveShadows: 0
+  shadowCastingMode: 0
+  time: 3
+  timeWidth:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  widthScale: 0.1
+  minVertexDistance: 0.1
+  maxVertexDistance: 100
+  maxPathDeviation: 1
+  createPointsOnCollision: 0
+  maxPoints: 100
+  createFirstPointOnParticleBirth: 0
+  createLastPointOnParticleDeath: 0
+  multithreading: 1
+  birthEvent:
+    enabled: 1
+    sendToManager: 0
+    target: {fileID: 0}
+    broadcastType: 0
+    eventType: 0
+    eventInheritancePosition: 0
+    eventInheritanceVelocity: 0
+    eventInheritanceColor: 0
+    eventPosition: {x: 0, y: 0, z: 0}
+    eventVelocity: {x: 0, y: 0, z: 0}
+    eventColor:
+      serializedVersion: 2
+      rgba: 4294967295
+    eventTime: 1
+    collisionThreshold: 10
+    velocityMultiplier: 1
+  deathEvent:
+    enabled: 1
+    sendToManager: 0
+    target: {fileID: 0}
+    broadcastType: 0
+    eventType: 0
+    eventInheritancePosition: 0
+    eventInheritanceVelocity: 0
+    eventInheritanceColor: 0
+    eventPosition: {x: 0, y: 0, z: 0}
+    eventVelocity: {x: 0, y: 0, z: 0}
+    eventColor:
+      serializedVersion: 2
+      rgba: 4294967295
+    eventTime: 1
+    collisionThreshold: 10
+    velocityMultiplier: 1
+  collisionEvent:
+    enabled: 1
+    sendToManager: 0
+    target: {fileID: 0}
+    broadcastType: 0
+    eventType: 0
+    eventInheritancePosition: 0
+    eventInheritanceVelocity: 0
+    eventInheritanceColor: 0
+    eventPosition: {x: 0, y: 0, z: 0}
+    eventVelocity: {x: 0, y: 0, z: 0}
+    eventColor:
+      serializedVersion: 2
+      rgba: 4294967295
+    eventTime: 1
+    collisionThreshold: 10
+    velocityMultiplier: 1
