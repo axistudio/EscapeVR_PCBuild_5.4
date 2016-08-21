@@ -13,10 +13,12 @@ public class TextTimer : MonoBehaviour {
 	void Update () {
 		if (secondsLeft > 0) {
 			secondsLeft -= Time.deltaTime;
-			textTimer.text = TransferTimer (secondsLeft); 
-		} else {
-			//Over
-			textTimer.text = "00:00"; 
+			if (secondsLeft <= 0) {
+				//Over
+				textTimer.text = "00:00"; 
+			} else {
+				textTimer.text = TransferTimer (secondsLeft); 
+			}
 		}
 	}
 
